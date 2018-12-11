@@ -15,8 +15,8 @@ public class DemoInterceptor extends HandlerInterceptorAdapter {
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         long startTime = System.currentTimeMillis();
         request.setAttribute("startTime", startTime);
-//        return super.preHandle(request, response, handler);
-        return true;
+        return super.preHandle(request, response, handler);
+//        return true;
     }
     /**在请求完成后执行*/
     @Override
@@ -26,6 +26,6 @@ public class DemoInterceptor extends HandlerInterceptorAdapter {
         long endTime = System.currentTimeMillis();
         System.out.println("本次请求处理时间为：" + (endTime-startTime)+"ms");
         request.setAttribute("handlingTime",endTime-startTime );
-        //        super.postHandle(request, response, handler, modelAndView);
+                super.postHandle(request, response, handler, modelAndView);
     }
 }

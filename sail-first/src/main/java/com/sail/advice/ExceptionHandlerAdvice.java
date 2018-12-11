@@ -13,6 +13,7 @@ public class ExceptionHandlerAdvice {
 
     @ExceptionHandler(Exception.class)//定义全局处理，此处拦截所有Exception
     public ModelAndView exception(Exception exception, WebRequest requets){
+        exception.printStackTrace();
         ModelAndView modelAndView = new ModelAndView("error");
         modelAndView.addObject("errorMessage",exception.getMessage());
         return modelAndView;

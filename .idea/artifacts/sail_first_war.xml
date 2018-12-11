@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="sail-first:war">
+    <output-path>$PROJECT_DIR$/sail-first/target</output-path>
+    <root id="archive" name="sail-first-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="sail-first:war exploded" />
+    </root>
+  </artifact>
+</component>

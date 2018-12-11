@@ -1,10 +1,11 @@
 package com.sail.controller;
 
 import com.sail.domain.DemoObj;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-//@Controller
+@Controller
 public class AdviceController {
 
     @RequestMapping("/advice")

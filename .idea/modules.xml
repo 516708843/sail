@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/LearnSpace.iml" filepath="$PROJECT_DIR$/LearnSpace.iml" />
       <module fileurl="file://$PROJECT_DIR$/ThinkingInJAVA/ThinkingInJAVA.iml" filepath="$PROJECT_DIR$/ThinkingInJAVA/ThinkingInJAVA.iml" />
       <module fileurl="file://$PROJECT_DIR$/sail-first/sail-first.iml" filepath="$PROJECT_DIR$/sail-first/sail-first.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot-demo/springboot-demo.iml" filepath="$PROJECT_DIR$/springboot-demo/springboot-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/zhengshuguihua/zhengshuguihua.iml" filepath="$PROJECT_DIR$/zhengshuguihua/zhengshuguihua.iml" />
     </modules>
   </component>
