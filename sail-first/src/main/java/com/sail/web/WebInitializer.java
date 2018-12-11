@@ -1,5 +1,6 @@
-package com.sail.sailfirst;
+package com.sail.web;
 
+import com.sail.config.MVCConfig;
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 import org.springframework.web.servlet.DispatcherServlet;
